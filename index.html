@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Petite Clothing</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div class="logo">
+                        <a href="index.html"><img src="images/logo1.png" class="transparent-bg" width="130px" alt="My Petite Clothing Logo"></a>
+                    </div>
+                    <nav>
+                        <ul id="menu-items">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="products.html">Products</a></li>
+
+                            <li><a href="">About</a></li>
+                            <li><a href="">Contact</a></li>
+                            <li><a href="account.html">Account</a></li>
+                        </ul>
+                    </nav>
+                    <a href="shopping-cart.html"><img src="images/cart.png" width="30px" height="30px" alt="Shopping Cart"></a>
+                    <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="Menu">
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>Give your height a perfect style</h1>
+                        <p>My Petite Clothing is a fashion brand that specializes in creating stylish and trendy clothing for petite women. Discover our latest collections and find the perfect fit for your unique style.</p>
+                        <a href="" class="btn">Explore Now &rarr;</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="images/about.png" class="transparent-bg" alt="Petite Clothing Model">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="categories">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <img src="images/tops.jfif" alt="Tops">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/bottoms.jfif" alt="Bottoms">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/dresses.jpg" alt="Dresses">
+                    </div>
+                    <div class="col-3">
+                        <img src="images/outwear.jfif" alt="Outwear">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="small-container">
+            <h2 class="title">Featured Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <a href="product-details.html"><img src="images/top1.jpg" alt="Red Top"></a>
+                    <a href="product-details.html"><h4>Red Blouse</h4></a>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$19.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/top2.png" alt="White Top">
+                    <h4>White Shirt</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$24.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/bottom1.jpg" alt="Black Jeans">
+                    <h4>Black Jeans</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$29.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/dresses1.jpg" alt="Summer Dress">
+                    <h4>Summer Dress</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$34.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/outwear1.jpg" alt="Winter Jacket">
+                    <h4>Winter Jacket</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$49.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/outwear2.jpg" alt="Denim Jacket">
+                    <h4>Denim Jacket</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$39.99</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="small-container">
+            <h2 class="title">Latest Products</h2>
+            <div class="row">
+                <div class="col-4">
+                    <img src="images/top2.png" alt="White Blouse">
+                    <h4>White Blouse</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$22.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/top1.jpg" alt="Red Top">
+                    <h4>Red Top</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$19.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/bottom2.jpg" alt="Blue Jeans">
+                    <h4>Blue Jeans</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$29.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/bottom1.jpg" alt="Black Pants">
+                    <h4>Black Pants</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$27.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/dresses2.jpg" alt="Evening Dress">
+                    <h4>Evening Dress</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$45.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/dresses1.jpg" alt="Casual Dress">
+                    <h4>Casual Dress</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$35.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/outwear2.jpg" alt="Light Jacket">
+                    <h4>Light Jacket</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$39.99</p>
+                </div>
+                <div class="col-4">
+                    <img src="images/outwear1.jpg" alt="Winter Coat">
+                    <h4>Winter Coat</h4>
+                    <div class="ratings">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                    <p>$59.99</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="offer">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-2">
+                        <img src="images/jump1.jfif" class="offer-img" alt="Exclusive Jumpsuit">
+                    </div>
+                    <div class="col-2">
+                        <p>Exclusively available on Petite clothing</p>
+                        <h1>JumpSuit</h1>
+                        <small>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga odit eligendi dicta sit beatae aspernatur error laborum, aliquam quod, magnam asperiores labore dolorum? Excepturi, nobis. Minus odit incidunt praesentium ducimus?</small>
+                        <a href="" class="btn">Buy Now &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonials">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusantium?</p>
+                        <div class="ratings">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <img src="images/r1.png" alt="User 1">
+                        <h3>Sarah Johnson</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusantium?</p>
+                        <div class="ratings">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <img src="images/r2.png" alt="User 2">
+                        <h3>Emily Chen</h3>
+                    </div>
+                    <div class="col-3">
+                        <i class="fa fa-quote-left"></i>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, accusantium?</p>
+                        <div class="ratings">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-half-o"></i>
+                        </div>
+                        <img src="images/r3.jpg" alt="User 3">
+                        <h3>Maria Garcia</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="brands">
+            <div class="small-container">
+                <div class="row">
+                    <div class="col-5">
+                        <img src="images/macys.png" alt="Macy's">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/express.png" alt="Express">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/old navy.jpg" alt="Old Navy">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/gap.jpg" alt="Gap">
+                    </div>
+                    <div class="col-5">
+                        <img src="images/nordstrom.jpg" alt="Nordstrom">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Available on Android and iOS</p>
+                        <div class="app-logo">
+                            <img src="images/google-play-badge.png" alt="Play Store">
+                            <img src="images/app store.png" alt="App Store">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/about.png" class="transparent-bg" alt="Logo">
+                        <p>Our purpose is to confidently empower petite women by making stylish, well-fitting fashion accessible to all.</p> 
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright &copy; 2025 My Petite Clothing</p>
+            </div>
+        </div>
+        
+        <script>
+            var menuItems = document.getElementById("menu-items");
+            menuItems.style.maxHeight = "0px";
+            
+            function menutoggle() {
+                if (menuItems.style.maxHeight == "0px") {
+                    menuItems.style.maxHeight = "200px";
+                } else {
+                    menuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>

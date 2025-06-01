@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>All Products-My Petite Clothing</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <img src="images/logo1.png" class="transparent-bg" width="130px" alt="My Petite Clothing Logo">
+                </div>
+                <nav>
+                    <ul id="menu-items">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px" alt="Shopping Cart">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()" alt="Menu">
+            </div>
+        </div>
+
+        <div class="small-container cart-page" >
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/top1.jpg" alt="Product Image">
+                            <div>
+                                <p> White Shirt</p>
+                                <small>Price: $50.00</small><br>
+                                <a href="">Remove</a>
+
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        Product Name
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/dresses.jpg" alt="Product Image">
+                            <div>
+                                <p> White Shirt</p>
+                                <small>Price: $50.00</small><br>
+                                <a href="">Remove</a>
+
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        Product Name
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="images/bottom1.jpg" alt="Product Image">
+                            <div>
+                                <p> White Shirt</p>
+                                <small>Price: $50.00</small><br>
+                                <a href="">Remove</a>
+
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        Product Name
+                    </td>
+                    <td><input type="number" value="1"></td>
+                    <td>$50.00</td>
+                </tr>
+            </table>
+
+
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>subtotal</td>
+                        <td>$150.00</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$15.00</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$165.00</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h3>Download Our App</h3>
+                        <p>Available on Android and iOS</p>
+                        <div class="app-logo">
+                            <img src="images/google-play-badge.png" alt="Play Store">
+                            <img src="images/app store.png" alt="App Store">
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <img src="images/about.png" class="transparent-bg" alt="Logo">
+                        <p>Our purpose is to confidently empower petite women by making stylish, well-fitting fashion accessible to all.</p> 
+                    </div>
+                    <div class="footer-col-3">
+                        <h3>Useful Links</h3>
+                        <ul>
+                            <li>Coupons</li>
+                            <li>Blog Post</li>
+                            <li>Return Policy</li>
+                            <li>Join Affiliate</li>
+                        </ul>
+                    </div>
+                    <div class="footer-col-4">
+                        <h3>Follow Us</h3>
+                        <ul>
+                            <li>Facebook</li>
+                            <li>Twitter</li>
+                            <li>Instagram</li>
+                            <li>YouTube</li>
+                        </ul>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright">Copyright &copy; 2025 My Petite Clothing</p>
+            </div>
+        </div>
+        <script>
+            var menuItems = document.getElementById("menu-items");
+            menuItems.style.maxHeight = "0px";
+            
+            function menutoggle() {
+                if (menuItems.style.maxHeight == "0px") {
+                    menuItems.style.maxHeight = "200px";
+                } else {
+                    menuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+    </body>
+</html>
